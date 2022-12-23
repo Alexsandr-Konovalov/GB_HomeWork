@@ -19,22 +19,22 @@ else
 
 // другой способ
 
-Console.Write("Введите пятизначное число -> ");
-int num = int.Parse(Console.ReadLine()!);
-int num1 = num;
-int revers = 0;
-int i = 0;
-while (num > 0)
-{
-    i = num % 10;
-    revers = revers * 10 + i;
-    num = num / 10;
-}
-if (num1 == revers)
-{
-    Console.WriteLine("да");
-}
-else
-{
-    Console.Write("нет");
-}
+// Console.Write("Введите пятизначное число -> ");
+// int num = int.Parse(Console.ReadLine()!);
+// int num1 = num;
+// int revers = 0;
+// int i = 0;
+// while (num > 0)
+// {
+//     i = num % 10;
+//     revers = revers * 10 + i;
+//     num = num / 10;
+// }
+// if (num1 == revers)
+// {
+//     Console.WriteLine("да");
+// }
+// else
+// {
+//     Console.Write("нет");
+// }
